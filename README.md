@@ -24,6 +24,11 @@
 1. In pytorch, the use of WeightedRandomSampler makes the learning more smoothly quicker  but the test dataset cannot be used with WeightedRandomSampler(TODO why ) 
  Note: shuffe should be False when using WeightedRandomSampler  
 
+## Attension
+1. [Attension in Neural Networks](https://buomsoo-kim.github.io/attention/2020/01/01/Attention-mechanism-1.md/)
+2. [Attention-mechanism](https://blog.floydhub.com/attention-mechanism/)
+3. [Attention based model 是什么，它解决了什么问题？](https://www.zhihu.com/question/36591394)
+
 # Time Series forecasting
 
 ## Time Series in General
