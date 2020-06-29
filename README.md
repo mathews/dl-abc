@@ -18,15 +18,24 @@
 2. [深入理解Batch Normalization批标准化](https://www.cnblogs.com/guoyaohua/p/8724433.html)
 
 ## droupout
-1. 
+1. dropout layer is used to overcome overfitting, refer to:[Improving neural networks by preventing co-adaptation of feature detectors](https://arxiv.org/pdf/1207.0580.pdf) by Hinton
 
+## Sample/Shuffle
+1. In pytorch, the use of WeightedRandomSampler makes the learning more smoothly quicker  but the test dataset cannot be used with WeightedRandomSampler(TODO why ) 
+ Note: shuffe should be False when using WeightedRandomSampler  
 
 # Time Series forecasting
 
+## Time Series in General
+1. [Financial Time Series Forecasting with Deep Learning -ASystematic Literature Review- 2005-2019](https://arxiv.org/abs/1911.13288)
+2. [Comparison between DeepESNs and gated RNNs on multivariate time-series prediction](https://arxiv.org/abs/1812.11527)
+3. [Multivariate Temporal Convolutional Network--A Deep Neural Networks Approach for Multivariate Time Series Forecasting](https://www.mdpi.com/2079-9292/8/8/876/pdf)
+
 ## LTSM
+1. [LSTM-MSNet: Leveraging Forecasts on Sets of Related Time Series with Multiple Seasonal Patterns](https://arxiv.org/abs/1909.04293)
+2. [Tensorized LSTM with Adaptive Shared Memory for Learning Trends in Multivariate Time Series](https://www.semanticscholar.org/paper/Tensorized-LSTM-with-Adaptive-Shared-Memory-for-in-Xu-Cheng/e058959c717fd68674f3df02d7bf2627ff815a56)
+3. [DSANet: Dual Self-Attention Network for Multivariate Time Series Forecasting](https://dl.acm.org/doi/pdf/10.1145/3357384.3358132)
 
-
-## LTSM-FCN
 
 
 ## Dataset
